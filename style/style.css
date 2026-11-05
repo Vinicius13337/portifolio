@@ -1,0 +1,57 @@
+/* Configurações Globais e Rolagem Suave */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Preto profundo e sólido em toda a página */
+body, .bg-dark, .navbar {
+    background-color: #0a0a0a !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Força os cards e listas a ficarem com um preto bem escuro e fechado */
+.card, .list-group-item {
+    background-color: #121212 !important;
+    border-color: #222 !important;
+}
+
+/* Cor Vermelho Vinho Sóbrio personalizada */
+.custom-red {
+    color: #8b0000 !important;
+}
+
+/* Botão Personalizado */
+.custom-btn {
+    background-color: #8b0000 !important;
+    color: #fff !important;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #a30000 !important;
+    color: #fff !important;
+}
+
+/* Círculo para a Foto (220px com borda tracejada em vinho) */
+.foto-circulo {
+    width: 220px;
+    height: 220px;
+    background: #0f0f0f;
+    border: 2px dashed #8b0000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-size: 0.95rem;
+    overflow: hidden;
+}
+
+/* Garante que a foto respeite o formato redondo se adicionar uma tag <img> */
+.foto-circulo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
